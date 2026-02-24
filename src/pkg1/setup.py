@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'Ultrasonico_Publisher = pkg1.ultrasonico_pub:main',
         ],
     },
 )
